@@ -13,9 +13,10 @@ if age >= 18:
         if left_or_right == "left":
             ans = input("Nice you follow the right path. Do you swim accross or go around. (accross/around)? ")
             if ans == "accross":
+                print("testing")
             
             elif ans == "around":
-            
+                print("testing2")
             else: 
                 print("You Lost...")
         else:
