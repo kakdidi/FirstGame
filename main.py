@@ -6,8 +6,21 @@ print("Hello", name, "you are", age, "years old")
 
 if age >= 18:
     print("You are old enough to play!")
-    wants_to_play = input("Do you want to play? ")
+    wants_to_play = input("Do you want to play? ").lower()
     if wants_to_play == "yes":
         print("Let's Play!!")
+        left_or_right = input("First Choice left or right... (left/right? ")
+        if left_or_right == "left":
+            ans = input("Nice you follow the right path. Do you swim accross or go around. (accross/around)? ")
+            if ans == "accross":
+            
+            elif ans == "around":
+            
+            else: 
+                print("You Lost...")
+        else:
+            print("You Fell down and lost...") 
+    else:
+        print("Bye...")
 else:
     print("You aren't enough to play")
